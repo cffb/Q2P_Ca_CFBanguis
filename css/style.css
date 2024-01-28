@@ -1,0 +1,784 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{margin: 0;padding: 0;  }
+
+
+/* Add a black background color to the top navigation */
+body {
+  background-color: #024d1f;
+  overflow-x: hidden;
+}
+/*navbar*/
+.topnav {
+    background-color: #44D941;
+    overflow: hidden;
+   
+  }
+   .topnav a {
+    float: right;
+    color: #f2f2f2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: .5vw;
+    margin-right: .5vw
+  }
+    .topnav a:hover {
+    background-color: #00ff4c;
+    color: black;
+    box-shadow: inset 0 5px #b9e7c7;
+  }
+     .topnav a.active {
+    background-color: #00ff4c;
+    color: rgb(0, 0, 0);
+  }
+
+  .text1{
+    float: left;
+    color: rgb(26, 105, 30);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    position: relative; 
+    bottom: -13px; 
+    left: 10vh;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+
+/*dropdown*/
+
+
+/*backround video*/
+  #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+
+  
+        
+    
+
+
+    /*footer*/
+    footer{
+      background-color: #44D941;
+      position: fixed;
+      bottom: 0%;
+      width: 100vw;
+      z-index: 5;
+  }
+  #icontainer{
+      float: right;
+  }
+  .icon{
+      background: url(../images/sprite3.png) no-repeat;
+      width: 66px;
+      height: 66px;
+      display: inline-block;
+      border-radius: 50px;
+      
+  }
+  
+  #facebook
+  {
+      background-position: -439px -146px;
+  }
+  #instagram
+  {
+      background-position: -290px -221px;
+  }
+  #twitter
+  {
+      background-position: -66px -72px;
+  }
+  
+  #copyright{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1049px;
+    bottom: -4vh;
+    position: relative;
+    
+}
+    
+  
+
+
+/*slogan*/
+.slogan{
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    left: 100vh;
+    top: 40vh;
+}
+.slogan2{
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    left: 100vh;
+    top: 40vh;
+}
+
+/*the donate box*/
+.container {
+    position: relative;
+  }
+    
+  .donatebox {
+    position: absolute;
+    top: 260px;
+    left: 99vh;
+    
+    padding: 10px;
+    background-color: #ecb640;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(43, 39, 39);
+    margin: 50px;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  
+
+ .donatebox:hover {
+    box-shadow: inset 100px 0 0 0 green;
+    color: white;
+  }
+
+
+  .container1 {
+    position: relative;
+  }
+    
+  .donatebox1 {
+    position: absolute;
+    top: -7vh;
+    left: 50vh;
+    
+    padding: 10px;
+    background-color: #ecb640;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(43, 39, 39);
+    margin: 50px;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+   
+  }
+  
+
+ .donatebox1:hover {
+    box-shadow: inset 100px 0 0 0 green;
+    color: white;
+  }
+
+  
+  /*========what we do=========*/
+ 
+  .content{
+   position: absolute;
+  }
+.purpose{
+    
+}
+  .backround{
+    position: relative;
+    left: 5vh;
+    top: 5vh;
+    
+  }
+  #title{
+    font-size: 15px;
+    color: rgb(22, 155, 22);
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 5px;
+  }
+  #title2{
+    font-size: 30px;
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 5px;
+    text-shadow: 4px 2px #000000;
+    color: white;
+  }
+
+  #description{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+  }
+
+  .ourwork{
+    position: relative;
+    left: 85vh;
+    top: 20vh;
+    
+    
+    
+  }
+  #title3{
+    font-size: 15px;
+    color: rgb(22, 155, 22);
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 5px;
+  }
+  #title4{
+    font-size: 30px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 5px;
+    text-shadow: 4px 2px #000000;
+  }
+  #description2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    
+  }
+  /*video*/
+  #kidvideo {
+    height: 30vh;
+    width: 30vw;
+    object-fit: cover;
+    position: absolute;
+    z-index:-1;
+    left: 130vh;
+    top: 16vh;
+    border-radius: 10px;
+  }
+  #kids{
+    width: 20vw;
+    height: 20vh;
+    
+  }
+  
+  .ron {
+    border: 100px;
+    position: relative;
+    bottom: -300vh;
+    color: #024d1f;;
+
+  }
+  .ron2{
+    border: 100px;
+    position: relative;
+    bottom: -350vh;
+    color: #024d1f;;
+
+  }
+
+  /*What the Organization has done so far*/
+  .achievementss{
+   
+  }
+  .achievements{
+    position: relative;
+    left: 5vh;
+    top: 79vh;
+    
+  }
+  .title5{
+    font-size: 15px;
+    color: rgb(22, 155, 22);
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 5px;
+  }
+  .title6{
+    font-size: 30px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 5px;
+    text-shadow: 4px 2px #000000;
+  }
+  
+  .achievement{
+    position: relative;
+    left: 5vh;
+    top: 89vh;}
+
+  .treesplanted{
+    font-size: 60px;
+    color: rgb(22, 155, 22);
+    font-family: 'Heebo', sans-serif;
+    text-shadow: 2px 2px #000000;
+    
+  }
+  .acres-restored{
+    position: relative;
+    font-size: 60px;
+    color: rgb(22, 155, 22);
+    font-family: 'Heebo', sans-serif;
+    left: 87vh;
+    bottom: 13.7vh;
+    text-shadow: 2px 2px #000000;
+  }
+.people{position: relative;
+  font-size: 60px;
+  color: rgb(22, 155, 22);
+  font-family: 'Heebo', sans-serif;
+  left: 150vh;
+  bottom: 27vh;
+  text-shadow: 2px 2px #000000;
+}
+#treetext{
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family: 'Heebo', sans-serif;
+  left: 19vh;
+  bottom: 28vh;
+  position: relative;
+}
+
+#acretext{
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family: 'Heebo', sans-serif;
+  left: 94vh;
+  bottom: 31vh;
+  position: relative;
+}
+#peopletext{
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family: 'Heebo', sans-serif;
+  left: 165vh;
+  bottom: 34.4vh;
+  position: relative;
+}
+.farmersplanting img{
+  position: relative;
+  width: 30vw;
+ bottom: 32vh;
+ left: 10vh;
+ border-radius: 10px;
+}
+
+/*more*/
+
+.moreworktodobox{
+  position: absolute;
+  border: 0vh solid black;
+  height: 60vh;
+  width: 100vw;
+  margin-left: 92vh;
+  margin-top: 30vh;
+  background-color: rgb(68, 0, 68);
+  border-radius: 0px;
+  border-radius: 70px;
+
+}
+.title7{
+  font-size: 40px;
+  color: white;
+  font-family: 'Heebo', sans-serif;
+  text-align: left;
+  text-shadow: 4px 2px #000000;
+}
+.title7 p { 
+  left: 8vh;
+  position: relative;
+  top: 7vh;
+}
+.description3{
+  font-size: 3.5vh;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+
+}
+.description3 p{
+  left: 8vh;
+  position: relative;
+  top: 7vh;
+}
+
+/*support us button*/
+.support{
+  position: absolute;
+ 
+  background-color: rgb(223, 156, 33);
+}
+
+.support a{
+  text-decoration: none;
+
+
+  position: absolute;
+  border: 0vh solid black;
+  height: 8vh;
+  width: 18vw;
+  text-align: center;
+  margin-top: 8vh;
+  margin-left: 10vh;
+  border-radius: 50px;
+  background-color: rgb(223, 156, 33);
+  
+}
+
+.support p{
+  top: 2vh;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+.support a:hover {
+  background-color: gray;
+  color: black;
+
+}
+
+/*another picture*/
+.girlfarmer img{
+  height: 80vh;
+  position: relative;
+  z-index: -3;
+  margin-top: 10vw;
+  border: 50px;
+  
+}
+
+
+/*ABOUT US*/
+
+
+.Aboutusbox{
+  position: absolute;
+  border: 0vh solid rgb(235, 222, 222);
+  height: 40vh;
+  width: 50vw;
+  margin-left: 92vh;
+  margin-top: 19vh;
+  background-color: rgb(213, 249, 255);
+  border-radius: 0px;
+  border-radius: 10px;
+
+}
+.aboutustitle p{
+  font-size: 15px;
+  color: rgb(22, 155, 22);
+  font-family: 'Heebo', sans-serif;
+  left: 10vh;
+position: relative;
+top: 6vh;
+}
+
+.aboutussubtitle{
+  font-size: 30px;
+  font-family: 'Heebo', sans-serif;
+ text-shadow: 4px 2px #000000;
+  color: white;
+  left: 10vh;
+position: relative;
+top: 6vh;
+}
+.aboutusdescription{
+  font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    left: 10vh;
+    position: relative;
+    top: 6vh;
+}
+.farmer2 img{
+  width: 30vw;
+  height: 50vh;
+  position: relative;
+  left: 10vh;
+  top: 15vh;
+  border: 10px solid black;
+  border-radius: 10px;
+}
+
+/*mission and vision*/
+.missionbox{
+  position: absolute;
+  border: 0vh solid rgb(235, 222, 222);
+  height: 70vh;
+  width: 42vw;
+  margin-left: 10vh;
+  margin-top: 30vh;
+  background-color: rgb(213, 249, 255);
+  border-radius: 0px;
+  border-radius: 10px;
+  box-shadow: 10px 10px;
+}
+.missiontitle{
+  font-size: 30px;
+  font-family: 'Heebo', sans-serif;
+ text-shadow: 4px 2px #ffffff;
+  color: rgb(0, 0, 0);
+  left: 10vh;
+position: relative;
+top: 6vh;
+  
+}
+.missiondescription{
+  font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    left: 10vh;
+    position: relative;
+    top: 6vh;
+}
+.farmer3 img{
+  position: relative;
+  top: 15vh;
+  left: 13vh;
+  border-radius: 10px;
+  
+}
+
+.visionbox{
+  position: absolute;
+  border: 0vh solid rgb(235, 222, 222);
+  height: 70vh;
+  width: 42vw;
+  margin-left: 114.4vh;
+  margin-top: 30vh;
+  background-color: rgb(213, 249, 255);
+  border-radius: 0px;
+  border-radius: 10px;
+  box-shadow: 10px 10px;
+}
+
+.visiontitle{
+  font-size: 30px;
+  font-family: 'Heebo', sans-serif;
+ text-shadow: 4px 2px #ffffff;
+  color: rgb(0, 0, 0);
+  left: 10vh;
+  position: relative;
+  top: 6vh;
+  
+  
+}
+.visiondescription{
+  font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    left: 10vh;
+    position: relative;
+    top: 6vh;
+}
+.farmer4 img{
+  position: relative;
+  margin-top: 29vw;
+  margin-left: 63vw;
+  border-radius: 10px;
+  height: 30vh;
+  
+  
+}
+
+/*support us*/
+.supportbox{
+  position: absolute;
+  border: 0vh solid rgb(235, 222, 222);
+  height: 70vh;
+  width:91vw;
+  margin-left: 10vh;
+  margin-top: 30vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px;
+  border-radius: 10px;
+  z-index: 1;
+  background-image: url(../images/smilingface.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50vw 70vh;
+  box-shadow: rgb(0, 0, 0) 10px 10px;
+  
+}
+
+
+.supporttitle{
+  font-size: 15px;
+    color: rgb(22, 155, 22);
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 5px;
+    z-index: 1;
+    margin-left: 3vw;
+    margin-top: 3vw;
+}
+.supportsubtitle{
+  font-size: 30px;
+    color: rgb(29, 24, 24);
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px #665f5f;
+    z-index: 1;
+    margin-left: 3vw;
+
+}
+.supportdecription{
+  font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    z-index: 1;
+    margin-left: 3vw;
+}
+/*donate to us*/
+.donateusbox{
+  position: absolute;
+  border: 0vh solid rgb(235, 222, 222);
+  height: 70vh;
+  width:50vw;
+  margin-left: 80vh;
+  margin-top: 110vh;
+  background-color: rgb(2, 87, 20);
+  border-radius: 0px;
+  border-radius: 10px;
+ 
+
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50vw 70vh;
+  box-shadow: rgb(0, 0, 0) 10px 10px;
+}
+.donatetitle{
+  font-size: 15px;
+    color: rgb(22, 155, 22);
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 5px;
+    z-index: 1;
+    margin-left: 3vw;
+    margin-top: 3vw;
+}
+.donatesubtitle{
+  font-size: 20px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 5px;
+    text-shadow: 4px 2px #000000;
+    z-index: 1;
+    margin-left: 3vw;
+}
+.donatedescription{
+  font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    z-index: 1;
+    margin-left: 3vw;
+}
+/*DONATE TO US BUTTON*/
+.donateus{
+  position: absolute;
+ 
+  background-color: rgb(223, 156, 33);
+}
+
+.donateus a{
+  text-decoration: none;
+
+
+  position: absolute;
+  border: 0vh solid black;
+  height: 8vh;
+  width: 18vw;
+  text-align: center;
+  margin-top: 8vh;
+  margin-left: 10vh;
+  border-radius: 50px;
+  background-color: yellowgreen;
+  
+}
+
+.donateus p{
+  top: 2vh;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(2, 87, 20);
+  text-decoration: none;
+  position: relative;
+}
+
+.donateus a:hover {
+  background-color: rgb(130, 175, 40);
+  color: black;
+
+}
+
+.familypic{
+  position: relative;
+  margin-top: 160vh;
+  transform: rotate(20deg);
+}
+
+/*animations*/
+.whatwedoani {
+  animation: 1s anim-lineUp ease-in;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.aboutusani{
+  animation: 2s anim-popoutin ease-in-out;
+}
+
+@keyframes anim-popoutin {
+  0% {
+    color: black;
+    transform: scale(0);
+    opacity: 0;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  25% {
+    color: red;
+    transform: scale(2);
+    opacity: 1;
+    text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    color: black;
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    /* animate nothing to add pause at the end of animation */
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+.referencesite{
+  font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    z-index: 1;
+    margin-left: 3vw;
+    color: white;
+}
